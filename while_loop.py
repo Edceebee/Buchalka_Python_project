@@ -3,7 +3,7 @@ import random
 highest = 10
 answer = random.randint(1, highest)
 
-print("Please guess the number between 1 to {}: " .format(highest))
+print(f'Please guess the number between 1 to {highest}: ')
 guessed_number = int(input())
 
 while guessed_number != answer:
@@ -15,3 +15,7 @@ while guessed_number != answer:
     guessed_number = int(input())
     if guessed_number == answer:
         print("well-done, you got it right")
+
+
+
+
