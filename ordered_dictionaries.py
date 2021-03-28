@@ -9,5 +9,15 @@ print(fruits)
 
 # OR
 
-for i in sorted(fruits.keys()):
-    print(i + " - " + fruits[i])
+# for i in sorted(fruits.keys()):
+#     print(i + " - " + fruits[i])
+
+fruits["pawpaw"] = 'my favourite'
+print(tuple(fruits.items()))
+
+
+# Using join
+
+new_list = "abcdefghijklmnopqrstuvwxyz"
+new_list2 = "_".join(new_list)
+print(new_list2)
